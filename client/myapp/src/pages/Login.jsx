@@ -46,7 +46,7 @@ const Login = () => {
           <p className='text-ascent-1 text-base font-semibold'>
             Log in to your account
           </p>
-          <span className='textsm mt-2 text-ascent-2'>Welcome back</span>
+          <span className='text-xxl mt-2 text-ascent-2'>Welcome back</span>
 
           <form
             className='py-8 flex flex-col gap-5'
@@ -124,14 +124,14 @@ const Login = () => {
         <div className='hidden w-1/2 h-full lg:flex flex-col items-center justify-center '>
           <div className='relative w-full flex items-center justify-center'>
             <img
-              src="./images/bg.jpg"
+              src="./images/Group 77 (1).png"
               alt='Bg Image'
-              className='m-8 object-cover'
-            />
+              className=' p-8 m-8 object-cover rounded-xl'
+            /> 
 
             <div className='absolute flex items-center gap-1 bg-white right-10 top-10 py-2 px-5 rounded-full'>
-              <BsShare size={14} />
-              <span className='text-xs font-medium'>Share</span>
+              <BsShare size={20} />
+              <span className='text-xs font-large'>Share</span>
             </div>
 
             <div className='absolute flex items-center gap-1 bg-white left-10 top-6 py-2 px-5 rounded-full'>
@@ -146,10 +146,10 @@ const Login = () => {
           </div>
 
           <div className='mt-16 text-center'>
-            <p className='text-white text-base'>
-              Connect with friedns & have share for fun
+            <p className='text-black text-base text-sm'>
+              Connect with friends & have share for fun
             </p>
-            <span className='text-sm text-white/80'>
+            <span className='text-sm text-black/80'>
               Share memories with friends and the world.
             </span>
           </div>
